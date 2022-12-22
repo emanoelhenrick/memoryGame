@@ -85,7 +85,7 @@ let game = {
         return tech + parseInt(Math.random() * 1000)
     },
 
-    shuffleCards: function(cards){
+    shuffleCards: function(){
         let currentIndex = this.cards.length
         let randomIndex = 0
         while(currentIndex !== 0){
